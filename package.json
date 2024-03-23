@@ -1,0 +1,21 @@
+{
+  "name": "cy-swaglabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open:sit": "cypress open --env state=sit",
+    "cy:open:uat": "cypress open --env state=uat",
+    "cy:open:prod": "cypress open --env state=prod",
+    "cy:run:sit": "cypress run --env state=sit",
+    "cy:run:uat": "cypress run --env state=uat",
+    "cy:run:prod": "cypress run --env state=prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
